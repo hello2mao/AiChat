@@ -1,7 +1,7 @@
 # AiChat
 
 <div align="center">
-	<img src="docs/images/首页.png" alt="Editor" width="500">
+	<img src="docs/images/首页.png" alt="Editor" width="75%">
 </div>
 
 ## 模型
