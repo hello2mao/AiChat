@@ -9,13 +9,6 @@ from core import shared
 from core.const import *
 
 
-def mode_change(mode_choice):
-    if mode_choice == MODE_CHAT:
-        return gr.update(visible=True), gr.update(visible=False)
-    elif mode_choice == MODE_CONFIG:
-        return gr.update(visible=False), gr.update(visible=True)
-
-
 default_theme_args = dict(
     font=["Source Sans Pro", "ui-sans-serif", "system-ui", "sans-serif"],
     font_mono=["IBM Plex Mono", "ui-monospace", "Consolas", "monospace"],
@@ -23,7 +16,7 @@ default_theme_args = dict(
 
 
 def create_ui():
-    with open("core/ui.css", "r") as f:
+    with open(UI_CSS_FILE, "r") as f:
         block_css = f.read()
 
     with gr.Blocks(
@@ -182,7 +175,10 @@ def create_ui():
                             outputs=[],
                         )
             mode_choice.change(
-                fn=mode_change,
+                fn=lambda mode_choice: (
+                    gr.update(visible=mode_choice == MODE_CHAT),
+                    gr.update(visible=mode_choice == MODE_CONFIG),
+                ),
                 inputs=[mode_choice],
                 outputs=[main_content, main_config],
             )

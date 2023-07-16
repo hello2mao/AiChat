@@ -1,5 +1,9 @@
 # AiChat
 
+<div align="center">
+	<img src="docs/images/首页.png" alt="Editor" width="500">
+</div>
+
 ## 模型
 百模大战排位：（1）[UC伯克利LLM排位赛](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) （2）[C-Eval排行榜](https://cevalbenchmark.com/static/leaderboard_zh.html)
 | 模型 | 版本 | 支持进度 |

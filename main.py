@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     shared.app = ui.create_ui()
 
-    shared.app.queue(concurrency_count=3)
+    shared.app.queue(concurrency_count=1)
     app, local_url, share_url = shared.app.launch(
         server_name="0.0.0.0",
         # server_port=8077,

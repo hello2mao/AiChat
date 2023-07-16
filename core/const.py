@@ -1,3 +1,4 @@
+UI_CSS_FILE = "core/ui.css"
 MODE_CHAT = "聊天"
 MODE_CONFIG = "配置"
 CONFIG_FILE = "config.json"
