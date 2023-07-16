@@ -3,9 +3,9 @@
 ## 模型
 | 模型 | 版本 | 支持进度 |
 | :--: | :--: | :--: | 
-| ChatGPT | ChatGPT-免费版 <br> ChatGPT-收费版| 程序员 | 
-| ChatGLM | 30 | 设计师 | 
-| Baichuan | 28 | 产品经理 |
+| ChatGPT | ChatGPT-免费版 | ✅ | 
+| ChatGLM | 30 | ✅ | 
+| Baichuan | 28 | ✅ |
 
 ## 插件支持
 | 插件 | 功能 | 进度 |  

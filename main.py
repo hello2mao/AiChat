@@ -6,7 +6,6 @@ from core import shared
 
 
 if __name__ == "__main__":
-    print("chatchat start")
     initialize.initialize()
 
     shared.app = ui.create_ui()
