@@ -8,8 +8,8 @@
 | ChatGLM | THUDM/chatglm2-6b <br> THUDM/chatglm2-6b-int4 <br> THUDM/chatglm-6b <br> THUDM/chatglm-6b-int8 <br> THUDM/chatglm-6b-int4 <br> THUDM/chatglm-6b-int4-qe | ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅| 
 | 百川 | baichuan-inc/Baichuan-7B <br> baichuan-inc/Baichuan-13B-Base <br> baichuan-inc/Baichuan-13B-Chat | ♻️<br>♻️<br>♻️ |
 
-## 插件支持
-| 插件 | 功能 | 进度 |  
+## 插件
+| 插件 | 功能 | 支持进度 |  
 | :-- | :-- | :--: |  
 | 文档摘要 | 自动生成文档的摘要 | ✅ |  
 | 对话SQL数据库 | 用自然语言与SQL数据库对话 | ♻️ |  
