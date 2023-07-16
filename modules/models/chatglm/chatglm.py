@@ -20,6 +20,7 @@ logger = logging.getLogger("ChatGLM")
 
 CHATGLM_MODELS = [
     "THUDM/chatglm2-6b",
+    "THUDM/chatglm2-6b-int4",
     "THUDM/chatglm-6b",
     "THUDM/chatglm-6b-int8",
     "THUDM/chatglm-6b-int4",

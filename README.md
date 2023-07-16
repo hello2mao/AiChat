@@ -1,11 +1,11 @@
 # AiChat
 
 ## 模型
-模型能力可参考：（1）[国外：UC伯克利LLM排位赛](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) （2）[国内：C-Eval排行榜](https://cevalbenchmark.com/static/leaderboard_zh.html)
+百模大战排位：（1）[UC伯克利LLM排位赛](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) （2）[C-Eval排行榜](https://cevalbenchmark.com/static/leaderboard_zh.html)
 | 模型 | 版本 | 支持进度 |
-| :--: | :--: | :--: | 
-| ChatGPT | ChatGPT-免费版 <br> GPT-3.5-turbo <br> GPT-4| ✅ <br> ♻️ <br> ♻️ | 
-| ChatGLM | 30 | ✅ | 
+| :-- | :-- | :--: | 
+| ChatGPT | GPT-4 <br> GPT-3.5-turbo <br> ChatGPT-免费版 | ♻️ <br> ♻️ <br> ✅  | 
+| ChatGLM | THUDM/chatglm2-6b <br> THUDM/chatglm2-6b-int4 <br> THUDM/chatglm-6b <br> THUDM/chatglm-6b-int8 <br> THUDM/chatglm-6b-int4 <br> THUDM/chatglm-6b-int4-qe | ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅| 
 | Baichuan | 28 | ✅ |
 
 ## 插件支持
