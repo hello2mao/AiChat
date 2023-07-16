@@ -6,14 +6,14 @@
 | :-- | :-- | :--: | 
 | ChatGPT | GPT-4 <br> GPT-3.5-turbo <br> ChatGPT-免费版 | ♻️ <br> ♻️ <br> ✅  | 
 | ChatGLM | THUDM/chatglm2-6b <br> THUDM/chatglm2-6b-int4 <br> THUDM/chatglm-6b <br> THUDM/chatglm-6b-int8 <br> THUDM/chatglm-6b-int4 <br> THUDM/chatglm-6b-int4-qe | ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅ <br> ✅| 
-| Baichuan | 28 | ✅ |
+| 百川 | baichuan-inc/Baichuan-7B <br> baichuan-inc/Baichuan-13B-Base <br> baichuan-inc/Baichuan-13B-Chat | ♻️<br>♻️<br>♻️ |
 
 ## 插件支持
 | 插件 | 功能 | 进度 |  
-| :--: | :--: | :--: |  
-| 张三 | 25 | 程序员 |  
-| 李四 | 30 | 设计师 |  
-| 王五 | 28 | 产品经理 |
+| :-- | :-- | :--: |  
+| 文档摘要 | 自动生成文档的摘要 | ✅ |  
+| 对话SQL数据库 | 用自然语言与SQL数据库对话 | ♻️ |  
+| 对话本地私有文档 | 用自然语言与本地私有文档对话 | ♻️ |
 
 ## Run
 ```bash
@@ -26,5 +26,5 @@ pip install -r requirements.txt
 python main.py
 ```
 
-# Ref
-https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+# TODO
+- https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
